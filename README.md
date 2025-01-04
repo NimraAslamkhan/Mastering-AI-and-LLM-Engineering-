@@ -2,7 +2,7 @@
 ![image](https://github.com/user-attachments/assets/ba0b3fdc-6b1e-48be-85fb-0820d8d8b8ed)
 
 This repository is a comprehensive resource for learning and mastering the latest and most critical topics in AI and LLM (Large Language Model) Engineering. Below is a detailed table of contents outlining the topics covered in this repository.
-# AI & LLM Engineering Roadmap (2025)
+# AI & LLM Engineering 
 
 ## Table of Contents
 
