@@ -4,96 +4,29 @@
 This repository is a comprehensive resource for learning and mastering the latest and most critical topics in AI and LLM (Large Language Model) Engineering. Below is a detailed table of contents outlining the topics covered in this repository.
 
 ## Table of Contents
+# AI and Machine Learning Topics Overview
 
-### 1. Large Language Models (LLMs)
-- **LLM Fine-Tuning**
-  - [LoRA (Low-Rank Adaptation)](./llm/fine_tuning/lora.md)
-  - [PEFT (Parameter-Efficient Fine-Tuning)](./llm/fine_tuning/peft.md)
-  - [Prefix Tuning](./llm/fine_tuning/prefix_tuning.md)
-- **Prompt Engineering**
-  - [Zero-Shot Prompting](./llm/prompt_engineering/zero_shot.md)
-  - [Few-Shot Prompting](./llm/prompt_engineering/few_shot.md)
-  - [Chain-of-Thought Prompting](./llm/prompt_engineering/chain_of_thought.md)
-- **Scaling Laws**
-  - [Understanding Model Size and Data Requirements](./llm/scaling_laws/overview.md)
-- **LLM Deployment**
-  - [Optimized Inference with ONNX](./llm/deployment/onnx.md)
-  - [TensorRT](./llm/deployment/tensorrt.md)
-  - [Hugging Face Accelerate](./llm/deployment/accelerate.md)
-- **Distributed Training**
-  - [ZeRO Optimization](./llm/training/zero.md)
-  - [Megatron-LM](./llm/training/megatron_lm.md)
-  - [DeepSpeed](./llm/training/deepspeed.md)
-- **Evaluation**
-  - [Perplexity](./llm/evaluation/perplexity.md)
-  - [BLEU Score](./llm/evaluation/bleu.md)
-  - [ROUGE Score](./llm/evaluation/rouge.md)
-  - [BERTScore](./llm/evaluation/bertscore.md)
+This document provides a comprehensive overview of various topics in AI and Machine Learning, categorized by domain, tools, frameworks, and example projects.
 
-### 2. Specialized Topics in AI
-- **Generative AI**
-  - [Text-to-Image: Stable Diffusion, DALL-E](./specialized/generative_ai/text_to_image.md)
-  - [Text-to-Audio](./specialized/generative_ai/text_to_audio.md)
-  - [Text-to-Video](./specialized/generative_ai/text_to_video.md)
-- **Multimodal Models**
-  - [CLIP](./specialized/multimodal/clip.md)
-  - [Flamingo](./specialized/multimodal/flamingo.md)
-  - [UniCLIP](./specialized/multimodal/uniclip.md)
-- **Reinforcement Learning**
-  - [RLHF (Reinforcement Learning with Human Feedback)](./specialized/reinforcement_learning/rlhf.md)
-- **Knowledge Graphs**
-  - [Integrating Structured Knowledge into LLMs](./specialized/knowledge_graphs/overview.md)
+## Categories
 
-### 3. MLOps and Engineering Best Practices
-- **Model Lifecycle Management**
-  - [MLflow](./mlops/lifecycle_management/mlflow.md)
-  - [DVC](./mlops/lifecycle_management/dvc.md)
-- **Data Engineering**
-  - [Apache Airflow](./mlops/data_engineering/airflow.md)
-  - [Prefect](./mlops/data_engineering/prefect.md)
-- **Model Deployment**
-  - [APIs with Flask/FastAPI](./mlops/deployment/apis.md)
-  - [Cloud Platforms: AWS Sagemaker, Azure ML, GCP AI Platform](./mlops/deployment/cloud_platforms.md)
-  - [Containerization: Docker, Kubernetes](./mlops/deployment/containerization.md)
-- **Monitoring**
-  - [Drift Detection](./mlops/monitoring/drift_detection.md)
-  - [Model Explainability (SHAP, LIME)](./mlops/monitoring/explainability.md)
+| Category                         | Topics                                                  | Tools/Frameworks                        | Example Projects                                    |
+|----------------------------------|---------------------------------------------------------|-----------------------------------------|------------------------------------------------------|
+| **1. Deep Learning Fundamentals** | Neural Networks and Backpropagation, Train and evaluate simple models for image and text data. | TensorFlow, PyTorch                         | Build a simple MNIST classifier                      |
+| **2. Generative Models**          | GANs (Generative Adversarial Networks), Variational Autoencoders (VAEs), Use generative models for data augmentation. | TensorFlow, PyTorch                         | Implement a GAN for image synthesis                   |
+| **3. NLP Basics**                 | Tokenization, text embeddings, traditional NLP techniques, Implement RNNs and LSTMs for text tasks. | NLTK, SpaCy, Hugging Face                    | Text classification using embeddings                 |
+| **4. Transformer Architectures**  | Study transformers (e.g., BERT, GPT), Attention mechanisms and multi-head attention, Implement text generation systems. | Hugging Face, PyTorch, TensorFlow            | Text summarization system using BERT                 |
+| **5. LLM Pre-training and Fine-tuning** | Pre-training concepts for LLMs like GPT-3, ChatGPT, Fine-tuning techniques (LoRA, PEFT, Prefix Tuning). | Hugging Face, OpenAI API, LoRA, PEFT          | Fine-tune GPT on a custom dataset                    |
+| **6. Generative AI Applications** | Build conversational agents and chatbots, Text-to-image systems like Stable Diffusion, Question-answering bots using NLP techniques. | OpenAI API, LangChain, Stable Diffusion      | Create a chatbot with GPT                           |
+| **7. Model Optimization and Deployment** | Optimize models (quantization, pruning), Deployment on cloud platforms (AWS, GCP, Azure). | TensorFlow Lite, ONNX, Flask/FastAPI, Docker, Kubernetes | Deploy a chatbot on AWS/GCP                        |
+| **8. Advanced Topics in LLMs**    | Retrieval-Augmented Generation (RAG), Advanced memory-augmented models, Agentic AI for autonomous decision-making, Federated Learning for distributed data. | LangChain, TiDB Serverless, Reinforcement Learning, RLHF, TensorFlow Federated, PySyft | Build a QA system with RAG, Implement self-learning agents with RLHF |
+| **9. LLM Fine-Tuning and Deployment (2025)** | Advanced agentic AI techniques, Large-scale distributed training (2025 methods). | ZeRO Optimization, DeepSpeed, Megatron-LM, Hugging Face Accelerate | Deploy fine-tuned LLMs for real-world applications  |
+| **10. Generative AI Beyond 2025** | Text-to-audio and text-to-video generation, Ethics and bias mitigation in AI systems, Sparse models (Mixture of Experts, Distillation). | DALL-E, Text-to-Audio Models, Text-to-Video Models, PyTorch, TensorFlow, SHAP, LIME | Implement multimodal systems for generative AI, Build a responsible AI monitoring system |
+| **11. Reinforcement Learning**   | RLHF (Reinforcement Learning with Human Feedback).         | RLlib, OpenAI API                         | Train agents for conversational AI tasks            |
+| **12. Knowledge Graphs**         | Knowledge Graph construction and utilization.            | Neo4j, Python, SPARQL                      | Build a recommendation system using knowledge graphs |
+| **13. MLOps and Engineering**    | Model lifecycle management with MLflow, DVC, Monitoring (drift detection, explainability). | MLflow, DVC, Apache Airflow, Prefect          | End-to-end ML pipelines, Monitor deployed AI models |
 
-### 4. Cutting-Edge Research Areas
-- **Sparse Models and Efficiency**
-  - [Mixture of Experts (MoE)](./research/sparse_models/moe.md)
-  - [Distillation](./research/sparse_models/distillation.md)
-- **Ethics and Bias in AI**
-  - [Responsible AI Principles](./research/ethics/responsible_ai.md)
-- **Federated Learning**
-  - [Training Models Across Distributed Devices](./research/federated_learning/overview.md)
-- **AI Safety and Alignment**
-  - [Ensuring LLM Outputs are Aligned with Human Values](./research/safety_alignment/overview.md)
 
-### 5. Tools and Platforms
-- **Hugging Face Ecosystem**
-  - [Transformers](./tools/hugging_face/transformers.md)
-  - [Datasets](./tools/hugging_face/datasets.md)
-  - [Accelerate](./tools/hugging_face/accelerate.md)
-- **LangChain**
-  - [Building Applications with LLMs](./tools/langchain/overview.md)
-- **Vector Databases**
-  - [Pinecone](./tools/vector_databases/pinecone.md)
-  - [Weaviate](./tools/vector_databases/weaviate.md)
-  - [TiDB for Retrieval-Augmented Generation (RAG)](./tools/vector_databases/tidb.md)
-- **AutoML Frameworks**
-  - [AutoGluon](./tools/automl/autogluon.md)
-  - [H2O.ai](./tools/automl/h2o.md)
-
-### 6. Mathematics for LLMs
-- **Matrix Operations**
-  - [Key Concepts for Transformers](./mathematics/matrix_operations.md)
-- **Probability Distributions**
-  - [Essential for LLM Outputs](./mathematics/probability_distributions.md)
-- **Information Theory**
-  - [Cross-Entropy Loss, KL Divergence](./mathematics/information_theory.md)
-- **Graph Theory**
-  - [Applications in Knowledge Graphs and GNNs](./mathematics/graph_theory.md)
 
 ---
 
