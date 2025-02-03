@@ -15,27 +15,23 @@ This repository is a comprehensive resource for learning and mastering the lates
 | 1.3| Retrieval-Augmented Generation (RAG) – Combining LLMs with vector search (e.g., FAISS, TiDB Vector Search) | Explore how to combine LLMs with vector search for enhanced information retrieval. |
 | 1.4| Multimodal AI – Combining text, images, audio, and video (Gemini, GPT-4o) | Delve into multimodal AI models combining multiple data types.              |
 | 1.5| Efficient LLM Deployment – Model optimization (ONNX, TensorRT, vLLM, DeepSpeed) | Learn how to deploy and optimize large models for production environments.    |
-
 | 2  | **AI for Production & Optimization**                        | Learn how to optimize AI models for real-world applications.                |
 | 2.1| MLflow for LLMs – Experiment tracking for large models      | Use MLflow to manage and track experiments for large-scale LLMs.             |
 | 2.2| DVC for Deep Learning Pipelines – Data versioning & MLOps   | Implement DVC for data versioning and manage deep learning pipelines.       |
 | 2.3| LlamaIndex & LangChain – AI-powered retrieval & memory for applications | Use LangChain and LlamaIndex for building memory-enhanced applications.     |
 | 2.4| Distillation & Pruning – Making LLMs smaller & faster for production | Learn distillation and pruning techniques to optimize large models.         |
 | 2.5| Memory-efficient Training – FlashAttention, 4-bit quantization | Learn how to make model training more memory-efficient with advanced techniques. |
-
 | 3  | **AI Applications & Advanced Use Cases**                    | Discover cutting-edge AI applications across various industries.           |
 | 3.1| Autonomous Agents (AutoGPT, BabyAGI) – Self-improving AI agents | Learn about autonomous agents that improve themselves over time.            |
 | 3.2| AI for Code Generation – GitHub Copilot, Code Llama, StarCoder | Dive into AI-powered code generation and models like GitHub Copilot.        |
 | 3.3| AI in Cybersecurity – AI-driven fraud detection, adversarial attacks | Explore how AI is used in cybersecurity for fraud detection and defending against attacks. |
 | 3.4| AI in Healthcare – Predictive models for diseases, medical imaging | Learn how AI is applied in healthcare for diagnosis and medical imaging.    |
 | 3.5| AI in Finance – Trading bots, risk assessment models        | Understand AI's role in finance for creating trading bots and assessing risks. |
-
 | 4  | **Advanced Computer Vision & Generative AI**                | Learn advanced topics in computer vision and generative AI.                |
 | 4.1| Stable Diffusion & Image Generation – SDXL, Midjourney      | Get hands-on experience with advanced image generation techniques like Stable Diffusion. |
 | 4.2| Diffusion Models – Newer architectures (ControlNet, Consistency Models) | Explore the latest architectures for diffusion models.                     |
 | 4.3| Video Generation (Sora, RunwayML) – AI-powered video synthesis | Learn about AI tools for generating video content.                         |
 | 4.4| Self-Supervised Learning (SSL) – Models like DINO, SimCLR for vision tasks | Dive into SSL techniques for vision-related tasks like image classification. |
-
 | 5  | **Cutting-Edge Research Topics**                            | Stay updated with the latest AI research areas and innovations.             |
 | 5.1| AI Alignment & Safety – Reinforcement Learning from Human Feedback (RLHF) | Understand the importance of aligning AI with human values and safety measures. |
 | 5.2| Neural Architecture Search (NAS) – Automating AI model design | Explore automated techniques for discovering optimal neural architectures.   |
