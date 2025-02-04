@@ -32,19 +32,19 @@ Quantization (GPTQ, AWQ, GGUF) – Run large models efficiently on small hardwar
 ---
 ### 1. **Introduction to LLMs**:
    LLMs are designed to handle various tasks in NLP. These models learn to predict the next word in a sequence, thereby learning language structure, context, and meaning. LLMs are **pretrained** on massive text corpora and can be fine-tuned for specific applications.
-   How to Run Large Language Models Locally on Your Computer
-## Running large language models locally involves setting up environments.
+  
+**Running large language models locally involves setting up environments**
+1-Hardware Requirements: 
+You need a GPU with sufficient VRAM (e.g., 16GB+ for large models like LLaMA, GPT-NeoX, etc.) or multiple CPU cores if running on a CPU.
+2- Software: 
+Install CUDA for GPU support, and PyTorch or TensorFlow for the model's backend.
+3- Memory Consideration: 
+For large models, you may need to use quantized models (e.g., GPTQ) or memory-efficient tools (e.g., Hugging Face's accelerate library).
 
-models, and managing computational resources. Here's how you can do it
-
-
-1-Hardware Requirements: You need a GPU with sufficient VRAM (e.g., 16GB+ for large models like LLaMA, GPT-NeoX, etc.) or multiple CPU cores if running on a CPU.
-2- Software: Install CUDA for GPU support, and PyTorch or TensorFlow for the model's backend.
-3- Memory Consideration: For large models, you may need to use quantized models (e.g., GPTQ) or memory-efficient tools (e.g., Hugging Face's accelerate library).
 4-Use Open-Source Models Hugging Face provides pretrained models for local inference: Transformers.
 Ollama, vLLM, and LM Studio are tools to facilitate LLMs locally.
 
-### 2. **How LLMs Work**:
+### 2.How LLMs Work:
    LLMs operate on text sequences and use attention mechanisms to determine which words are important in a given context. The **transformer model** relies on a "self-attention" mechanism that allows it to consider the entire sequence of words at once, making it more efficient for processing long text compared to traditional models.
 
    The architecture can be broken into:
