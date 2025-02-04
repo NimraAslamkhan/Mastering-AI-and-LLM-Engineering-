@@ -13,12 +13,16 @@ LLMs are powerful machine learning models designed to understand, generate, and 
 - **Large Language Models** (LLMs) are trained on vast amounts of textual data to capture patterns in language.
 - **Transformers** are the core architecture behind LLMs, leveraging the attention mechanism to efficiently handle large sequences of text.
 ---  
-##Techniques to Scale LLM Applications:
+### Techniques to Scale LLM Applications:
 
-###Retrieval-Augmented Generation (RAG) – Improve LLMs with external knowledge sources.
-###Fine-Tuning & LoRA (Low-Rank Adaptation) – Customize models for domain-specific tasks.
-###Prompt Engineering & Chain-of-Thought (CoT) – Optimize query responses.
-###Quantization (GPTQ, AWQ, GGUF) – Run large models efficiently on small hardware
+Retrieval-Augmented Generation (RAG) – Improve LLMs with external knowledge sources.
+
+Fine-Tuning & LoRA (Low-Rank Adaptation) – Customize models for domain-specific tasks.
+
+Prompt Engineering & Chain-of-Thought (CoT) – Optimize query responses.
+
+Quantization (GPTQ, AWQ, GGUF) – Run large models efficiently on small hardware
+
 ---  
 ### Examples of LLMs:
 - **GPT-3/4** (Generative Pretrained Transformers)
