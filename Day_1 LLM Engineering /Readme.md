@@ -12,7 +12,14 @@ LLMs are powerful machine learning models designed to understand, generate, and 
 ### Key Concepts:
 - **Large Language Models** (LLMs) are trained on vast amounts of textual data to capture patterns in language.
 - **Transformers** are the core architecture behind LLMs, leveraging the attention mechanism to efficiently handle large sequences of text.
-  
+---  
+##Techniques to Scale LLM Applications:
+
+###Retrieval-Augmented Generation (RAG) – Improve LLMs with external knowledge sources.
+###Fine-Tuning & LoRA (Low-Rank Adaptation) – Customize models for domain-specific tasks.
+###Prompt Engineering & Chain-of-Thought (CoT) – Optimize query responses.
+###Quantization (GPTQ, AWQ, GGUF) – Run large models efficiently on small hardware
+---  
 ### Examples of LLMs:
 - **GPT-3/4** (Generative Pretrained Transformers)
 - **BERT** (Bidirectional Encoder Representations from Transformers)
@@ -96,4 +103,10 @@ summary = summarize_text(text)
 print("Summary:", summary)
 ```
 
-
+Essential Tools & Frameworks for LLM Development
+ Must-Have Tools:
+1- Hugging Face – Pretrained models, fine-tuning, and model hub.
+2- LangChain – For building LLM-powered apps with memory and reasoning.
+3- Gradio – Easily build UIs for AI models.
+4- LLamaIndex – Data retrieval for large documents (RAG).
+5- Vector Databases (FAISS, Chroma, Pinecone) – Optimized for similarity search.
