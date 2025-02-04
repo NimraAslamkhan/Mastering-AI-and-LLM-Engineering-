@@ -28,10 +28,8 @@ Quantization (GPTQ, AWQ, GGUF) – Run large models efficiently on small hardwar
 - **GPT-3/4** (Generative Pretrained Transformers)
 - **BERT** (Bidirectional Encoder Representations from Transformers)
 - **T5**, **RoBERTa**, **XLNet** 
-### Frontier models are cutting-edge, large-scale AI models designed to push the limits of AI capabilities. Examples include GPT-4, Gemini 1.5, and Claude 3.5.
+- **Frontier models** are cutting-edge, large-scale AI models designed to push the limits of AI capabilities. Examples include GPT-4, Gemini 1.5, and Claude 3.5.
 ---
-## Key Topics Covered
-
 ### 1. **Introduction to LLMs**:
    LLMs are designed to handle various tasks in NLP. These models learn to predict the next word in a sequence, thereby learning language structure, context, and meaning. LLMs are **pretrained** on massive text corpora and can be fine-tuned for specific applications.
    How to Run Large Language Models Locally on Your Computer
