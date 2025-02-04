@@ -83,9 +83,9 @@ Ollama, vLLM, and LM Studio are tools to facilitate LLMs locally.
 - **BeautifulSoup**: A Python library for web scraping, often used for extracting text from HTML content.
 
 ---
+**LangChain in LLM Development**
 
-## LangChain in LLM Development
-LangChain simplifies LLM-powered applications, integrating Memory & Context – Keep chat history ,Prompt Engineering – Optimize AI responses. RAG (Retrieval-Augmented Generation) – Enhance models with external knowledge , Multi-Agent Systems – AI reasoning & planning.
+LangChain simplifies LLM-powered applications, integrating Memory & Context – Keep chat history ,Prompt Engineering – Optimize AI responses. RAG (Retrieval-Augmented Generation) – Enhance models with external knowledge , Multi-Agent Systems – AI reasoning & planning
 ---
 
 # Choosing Open-Source vs Closed-Source LLMs
