@@ -45,9 +45,8 @@ To assess suitability:
 - **Cost**: Open-source models are generally free, proprietary models require licensing.
 - **Support & Maintenance**: Proprietary models provide official support.
 - **Security & Compliance**: Evaluate adherence to industry standards.
-
-  # GPT-4 vs GPT-4O (O1 Preview) and Frontier AI Models
-
+---
+# GPT-4 vs GPT-4O and Frontier AI Models
 ## Key Performance Differences Between GPT-4 and GPT-4O (O1 Preview)
 
 GPT-4O, also known as the O1 Preview, represents a significant advancement over GPT-4 in several areas:
