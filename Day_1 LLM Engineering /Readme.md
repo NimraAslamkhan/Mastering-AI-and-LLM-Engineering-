@@ -1,11 +1,5 @@
 # Day 1: LLM Engineering Learning
 
-## Overview
-
-Welcome to my Day 1 of the LLM (Large Language Model) Engineering learning journey! In this repository, I will document everything I've learned so far, including the theoretical concepts, tools, and initial implementations related to LLMs and AI applications. This is a beginner-friendly guide for anyone who is interested in starting their learning path in LLM engineering.
-
----
-
 ## What are LLMs (Large Language Models)?
 
 LLMs are powerful machine learning models designed to understand, generate, and manipulate human language. They have become fundamental to numerous applications in natural language processing (NLP), including text generation, summarization, translation, and question answering. LLMs are typically based on the **transformer architecture**, which utilizes attention mechanisms to process and generate language.
