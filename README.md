@@ -1,7 +1,7 @@
 # Mastering AI and LLM Engineering 
 ![image](https://github.com/user-attachments/assets/ba0b3fdc-6b1e-48be-85fb-0820d8d8b8ed)
 
-Welcome to my Day 1 of the LLM (Large Language Model) Engineering learning journey! In this repository, I will document everything I've learned so far, including the theoretical concepts, tools, and initial implementations related to LLMs and AI applications. This is a beginner-friendly guide for anyone who is interested in starting their learning path in LLM engineering.
+ In this repository, I will document everything I've learned so far, including the theoretical concepts, tools, and initial implementations related to LLMs and AI applications. This is a beginner-friendly guide for anyone who is interested in starting their learning path in LLM engineering.
 
 # AI & LLM Engineering 
 # Advanced AI & LLM Topics to Learn & Post in 2025
