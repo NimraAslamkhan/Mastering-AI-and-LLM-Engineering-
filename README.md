@@ -41,24 +41,13 @@
 
 ---
 
-## How to Learn and Share:
-1. **Start with LLMs and Fine-Tuning** (Topics 1.1 to 1.5).
-2. **Move to AI Production & Optimization** (Topics 2.1 to 2.5).
-3. **Explore Real-World AI Applications** (Topics 3.1 to 3.5).
-4. **Dive into Advanced Computer Vision & Generative AI** (Topics 4.1 to 4.4).
-5. **Keep up with Cutting-Edge Research** (Topics 5.1 to 5.4).
-
-## Posting on LinkedIn and GitHub
-- For each topic, share a LinkedIn post explaining key learnings.
-- Upload relevant code, models, and documentation to GitHub.
-- Write blog posts or create tutorials to explain the concepts.
 
 
 
-This structured roadmap provides a comprehensive guide to mastering AI & LLM Engineering, incorporating both theoretical and practical aspects for real-world applications.
 
 
----
+
+
 
 ## Contributing
 Contributions are welcome! Feel free to open issues or submit pull requests to improve the repository.
