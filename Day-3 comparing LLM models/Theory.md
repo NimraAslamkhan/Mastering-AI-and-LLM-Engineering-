@@ -39,7 +39,7 @@ Claude 3.5 Sonnet is a powerful AI model developed by Anthropic. It competes wit
 
 # AI Model Comparison: Meta AI, Perplexity AI, GPT-4, Claude 3.5, Gemini, and Cohere
 
-## 1. AI Model Comparisons in 2024  
+## 1. AI Model Comparisons in 2025  
 Gemini (Google DeepMind) and Cohere (Command R) serve different roles compared to GPT-4 (OpenAI), Claude (Anthropic), Meta AI (LLAMA models), and Perplexity AI.  
 
 | Feature | **Meta AI (LLAMA)** | **Perplexity AI** | **GPT-4** | **Claude 3.5** | **Gemini** | **Cohere** |
