@@ -1,4 +1,4 @@
- ## What are the key differences between leading AI models like GPT-4, Claude, and Gemini in 2025?
+
  # AI Models Comparison: GPT-4, Claude, and Gemini (2025)
 
 ## Overview
