@@ -2,9 +2,9 @@
 
 ## 1. Evolution of Prompt Engineering in AI Development
 
-# The Evolution of Prompt Engineering in AI Development
 
-## **1. Early Stages: Simple Prompting**
+
+### **1. Early Stages: Simple Prompting**
 Prompt engineering initially involved **basic command-based inputs**, where AI models required explicit and structured instructions. Early AI systems, such as rule-based chatbots, had minimal understanding of **natural language variations**.
 
 ### **Example of Early Prompting:**
