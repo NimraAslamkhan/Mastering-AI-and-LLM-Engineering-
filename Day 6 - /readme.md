@@ -68,7 +68,7 @@ To make the best use of token limits:
 - **Use memory-efficient models** like RAG (Retrieval-Augmented Generation) to fetch relevant information when needed.
 - **Fine-tune models** on specific tasks to enhance performance within token constraints.
 
-Understanding and managing token limits is crucial for optimizing AI models for various applications, including chatbots, document summarization, and automated assistants.
+
 ---
 # Understanding Context Limitations in Large Language Models (LLMs)
 
@@ -97,7 +97,6 @@ Context length directly impacts a model’s **performance, memory retention, and
 - **Large Context Window**: A longer context length allows the model to remember more information, answer complex queries more effectively, and analyze extensive text input.
 - **Computational Costs**: A larger context window demands more processing power and memory, affecting efficiency and increasing costs.
 
-Thus, **a larger context length does not always guarantee better results; model architecture, memory, and computational capabilities must also be considered.**
 
 ---
 # Understanding AI Model Pricing and Token-Based Costs
