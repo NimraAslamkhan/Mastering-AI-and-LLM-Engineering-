@@ -121,5 +121,33 @@ A **larger context window** (e.g., 128K tokens) allows models to remember more t
 - **OpenAI** requires a **minimum $5 deposit** to use the API.
 - **Anthropic (Claude)** also has a **minimum balance requirement**, which can be checked in their official documentation.
 
-For more details, refer to the respective pricing pages of OpenAI and Anthropic!
+## 6. Key Differences in Context Window Sizes Between GPT-4, Claude, and Gemini 1.5 Flash
+- **GPT-4 Turbo**: Supports up to **128K tokens**.
+- **Claude 2.1**: Can process **200K tokens**, making it suitable for handling large documents.
+- **Gemini 1.5 Flash**: Offers **1M token context**, enabling **entire books or multi-document analysis**.
+
+## 7. How Do Token Costs Compare Across Different LLM Models?
+- **GPT-4 Turbo**: Lower cost per token compared to GPT-4.
+- **Claude 2.1**: Competitive pricing with a focus on long-context efficiency.
+- **Gemini 1.5**: High context window but **token pricing varies based on usage**.
+
+## 8. Practical Significance of a 1-Million Token Context Window
+A **1M token context window** means models like **Gemini 1.5** can process **entire books, large research papers, or extensive chat histories** in one go. This is useful for:
+- **Legal and research document analysis**
+- **Complex multi-turn conversations**
+- **Advanced Retrieval-Augmented Generation (RAG) applications**
+
+## 9. How to Calculate API Costs for Different Language Models?
+API pricing follows this formula:
+
+**Total Cost = (Input Tokens × Input Cost) + (Output Tokens × Output Cost)**
+
+Each provider (OpenAI, Anthropic, Google) has different token pricing, so refer to their official pricing pages for exact rates.
+
+## 10. Which LLM Offers the Most Cost-Effective Solution?
+- **For long-context needs** → **Claude 2.1 or Gemini 1.5**.
+- **For general-purpose tasks** → **GPT-4 Turbo**.
+- **For budget-conscious users** → **Choose API-based pricing with careful token management**.
+
+
 
