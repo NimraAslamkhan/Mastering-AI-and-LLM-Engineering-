@@ -89,8 +89,7 @@ Output: "Please don’t use your phone in the meeting."
 
 Input: "It is imperative that the report is submitted by 5 PM."
 Output: ?
-
-
+```
 
 # Difference Between One-Shot and Multi-Shot Prompting in AI
 
