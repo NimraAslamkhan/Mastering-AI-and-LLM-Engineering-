@@ -281,4 +281,127 @@ Constraints help shape the response to meet expectations.
 ---
 
 
+# Multi-Shot Prompting & Advanced Prompt Optimization in Generative AI
 
+## Best Practices for Implementing Multi-Shot Prompting
+
+**Multi-shot prompting** involves providing several examples in a prompt to guide a language model’s output behavior. It helps in improving response reliability and performance across diverse use cases.
+
+---
+
+### 1. Use High-Quality and Diverse Examples
+- Ensure examples reflect a wide range of valid inputs and edge cases.
+- Keep them accurate, clear, and representative of the task.
+
+---
+
+### 2. Keep the Format Consistent
+- Maintain the same structure and tone throughout examples and the final query.
+
+**Example:**
+
+Q: What is the capital of France? A: Paris
+
+Q: What is the capital of Germany? A: Berlin
+
+Q: What is the capital of Italy? A:
+
+
+
+---
+
+### 3. Stay Within Token Limits
+- Large models have context length limits (e.g., 4k, 8k, 32k tokens).
+- Balance the number of examples with space for the final response.
+
+---
+
+### 4. Group Examples by Complexity
+- Begin with simple examples, then gradually increase complexity to build intuition.
+
+---
+
+### 5. Use Domain-Specific Context
+- Integrate technical or contextual language relevant to your use case.
+- Helps the model better understand intent within specialized tasks.
+
+---
+
+### 6. Clearly Define the Task
+- Include a short instruction line before examples to clarify the model’s objective.
+
+**Example:**
+
+Task: Convert formal sentences into a casual tone.
+
+
+---
+
+### 7. Add Chain-of-Thought Reasoning
+- Break down logic step-by-step to show reasoning in examples.
+
+---
+
+## Optimizing LLM Outputs Through Advanced Prompting Strategies
+
+---
+
+### 1. Prompt Chaining
+- Divide complex tasks into smaller steps.
+- Output of one prompt becomes input for the next.
+
+---
+
+### 2. Dynamic Prompting
+- Use templates that adapt to user input, context, or conversation history.
+
+---
+
+### 3. Role Assignments & Instruction Tuning
+- Direct the model using clear roles.
+- Example: “Act as a senior financial analyst summarizing a market report.”
+
+---
+
+### 4. Combine Few-Shot with Context
+- Mix concise instructions, relevant examples, and brief context to boost precision.
+
+---
+
+### 5. Temperature and Max Tokens
+- **Temperature:**
+  - 0.2–0.5: Reliable, factual tasks.
+  - 0.7–0.9: Creative, open-ended tasks.
+- **Max tokens:** Controls response length.
+
+---
+
+### 6. Add Negative Examples
+- Help guide what *not* to do in addition to what’s expected.
+
+---
+
+### 7. Use Output Constraints
+- Ask for structured formats like:
+  - JSON
+  - Tables
+  - Bullet lists
+- Set limits on tone, length, or style.
+
+
+---
+
+
+
+| Prompting Technique         | Benefit                                        |
+|----------------------------|------------------------------------------------|
+| Multi-shot Examples        | Guides model behavior with reference cases     |
+| Clear Instructions         | Reduces ambiguity                              |
+| Domain-Specific Language   | Improves contextual relevance                  |
+| Chain-of-Thought           | Enhances logical reasoning                     |
+| Prompt Chaining            | Handles complex, multi-stage tasks             |
+| Temperature Tuning         | Controls creativity and randomness             |
+| Output Constraints         | Ensures format, structure, and clarity         |
+| Negative Examples          | Prevents undesired responses                   |
+
+---
